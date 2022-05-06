@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Turmeric",
+        "image": "https://i.ibb.co/rGLGPQK/turmeric1.png",
+        "image2": "https://i.ibb.co/qghKPgg/turmeric2.png",
+        "description": "...",
+        "price": "94000$/Metric-Ton",
+        "quantity": "60",
+        "supplier-name": "Arku",
+        "button": "..."
+    },
+    {
+        "name": "Black Pepper",
+        "image": "https://i.ibb.co/X23jhZt/pepper1.png",
+        "image2": "https://i.ibb.co/kJfmwdT/pepper2.png",
+        "description": "...",
+        "price": "15000$/Unit",
+        "quantity": "55",
+        "supplier-name": "Royal Spices",
+        "button": "..."
+    },
+    {
+        "name": "Star Anise",
+        "image": "https://i.ibb.co/jZbpwLv/star1.png",
+        "image2": "https://i.ibb.co/MD4hR1v/star2.png",
+        "description": "",
+        "price": "15000$/Unit",
+        "quantity": "7",
+        "supplier-name": "Wauwatosa",
+        "button": "..."
+    },
+    {
+        "name": "Cinnamon",
+        "image": "https://i.ibb.co/w6g7J40/cinnemon1.png",
+        "image2": "https://i.ibb.co/j3YyLsW/cinnemon2.png",
+        "description": "",
+        "price": "16000$/Unit",
+        "quantity": "40",
+        "supplier-name": "Spice Island",
+        "button": "..."
+    },
+    {
+        "name": "Saffron",
+        "image": "https://i.ibb.co/WP5jy5R/saffron1.png",
+        "image2": "https://i.ibb.co/1RVCy2q/saffron2.png",
+        "description": "",
+        "price": "350000$/Unit",
+        "quantity": "4",
+        "supplier-name": "Khulasaat",
+        "button": "..."
+    },
+    {
+        "name": "Green Cardamom",
+        "image": "https://i.ibb.co/hC8RysQ/cardamom1.png",
+        "image2": "https://i.ibb.co/HDLw3gX/cardamom2.png",
+        "description": "",
+        "price": "22000$/Unit",
+        "quantity": "10",
+        "supplier-name": "Indo Spices",
+        "button": "..."
+    },
+    {
+        "name": "Rock Salt",
+        "image": "https://i.ibb.co/ThYVrSP/rock-salt.png",
+        "image2": "https://i.ibb.co/Pmm421f/rock-salt2.png",
+        "description": "",
+        "price": "300$/Unit",
+        "quantity": "80",
+        "supplier-name": "Khulasaat",
+        "button": "..."
+    },
+    {
+        "name": "Chia",
+        "image": "https://i.ibb.co/pwsyfz8/chia2.png",
+        "image2": "https://i.ibb.co/hdSVRsW/chia1.png",
+        "description": "",
+        "price": "4000$/Unit",
+        "quantity": "40",
+        "supplier-name": "Junket",
+        "button": "..."
+    },
+    {
+        "name": "Chili Flakes",
+        "image": "https://i.ibb.co/bPcYXqg/flakes1.png",
+        "image2": "https://i.ibb.co/Z6T9vcx/flakes2.png",
+        "description": "",
+        "price": "3500$/Barrel",
+        "quantity": "55",
+        "supplier-name": "McCormick",
+        "button": "..."
+    },
+    {
+        "name": "Cloves",
+        "image": "https://i.ibb.co/wM59TWJ/cloves.png",
+        "image2": "https://i.ibb.co/ykZ7hkb/cloves2.png",
+        "description": "...",
+        "price": "13000$/Unit",
+        "quantity": "12",
+        "supplier-name": "Unkers",
+        "button": "..."
+    },
+    {
+        "name": "Musturd Seed",
+        "image": "https://i.ibb.co/7vynRZH/musturd.png",
+        "image2": "https://i.ibb.co/F3Jfv3G/musturd2.png",
+        "description": "...",
+        "price": "10000$/Unit",
+        "quantity": "22",
+        "supplier-name": "John Henry's",
+        "button": "..."
+    },
+    {
+        "name": "Onion Powder",
+        "image": "https://i.ibb.co/zVBLKQn/oni-powder2.png",
+        "image2": "https://i.ibb.co/Y7YscD7/oni-powder.png",
+        "description": "...",
+        "price": "4000$/Unit",
+        "quantity": "35",
+        "supplier-name": "Morton",
+        "button": "..."
+    },
+    {
+        "name": "Ginger",
+        "image": "https://i.ibb.co/0XkgTJL/ginger1.png",
+        "image2": "https://i.ibb.co/VJ14JsZ/ginger2.png",
+        "description": "...",
+        "price": "6000$/Unit",
+        "quantity": "45",
+        "supplier-name": "B&G",
+        "button": "..."
+    }
+]
