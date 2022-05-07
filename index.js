@@ -21,14 +21,14 @@ async function run() {
             const inventories = await cursor.toArray();
             res.send(inventories);
         })
-        // app.get('/inventory/:_id', async (req, res) => {
-        //     const _id = req.params._id;
-        //     const query = { _id: ObjectId(_id) };
-        //     const inventory = await inventoryCollection.findOne(query);
+        app.get('/inventory/:_id', async (req, res) => {
+            const _id = req.params._id;
+            const query = { _id: ObjectId(_id) };
+            const inventory = await inventoryCollection.findOne(query);
 
 
-        //     res.send(inventory);
-        // })
+            res.send(inventory);
+        })
     }
     finally {
 
