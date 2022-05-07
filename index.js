@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 /////////////// connection string //////////////////
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.avnz3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 async function run() {
@@ -20,6 +20,14 @@ async function run() {
             const cursor = inventoryCollection.find(query);
             const inventories = await cursor.toArray();
             res.send(inventories);
+        })
+        app.get('/inventory/:_id', async (req, res) => {
+            const _id = req.params._id;
+            const query = { _id: ObjectId(_id) };
+            const inventory = await inventoryCollection.findOne(query);
+
+
+            res.send(inventory);
         })
     }
     finally {
