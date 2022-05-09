@@ -29,12 +29,12 @@ async function run() {
 
             res.send(inventory);
         })
-        app.get('/manageInventory', async (req, res) => {
-            const query = {};
-            const cursor = inventoryCollection.find(query);
-            const AllInventories = await cursor.toArray();
-            res.send(AllInventories);
-        })
+        // app.get('/manageInventory', async (req, res) => {
+        //     const query = {};
+        //     const cursor = inventoryCollection.find(query);
+        //     const AllInventories = await cursor.toArray();
+        //     res.send(AllInventories);
+        // })
         app.post('/myItems', async (req, res) => {
             const newItem = req.body;
             const result = await inventoryCollection.insertOne(newItem);
